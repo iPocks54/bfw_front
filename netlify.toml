@@ -1,0 +1,14 @@
+[[headers]]
+  for = "/*.data"
+  [headers.values]
+    Content-Type = "application/octet-stream"
+
+[[headers]]
+  for = "/*.wasm"
+  [headers.values]
+    Content-Type = "application/wasm"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Content-Type = "application/javascript"
