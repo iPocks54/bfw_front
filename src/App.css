@@ -1,0 +1,72 @@
+/* src/App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffe6d1;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  border-bottom: 5px solid #ff4500;
+}
+
+.App-header h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.App-header p {
+  font-size: 1.2em;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.App-main {
+  padding: 20px;
+}
+
+.unity-container {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  border: 2px solid #040000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #fff;
+  overflow: hidden;
+  aspect-ratio: 16 / 9; 
+}
+
+#unityContainer {
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  overflow: hidden;
+  outline: none; 
+  cursor: pointer; 
+}
+
+
+footer {
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 3px solid #ff4500;
+}
+
+footer p {
+  margin: 0;
+}
