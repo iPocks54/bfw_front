@@ -12,3 +12,6 @@
   for = "/*.js"
   [headers.values]
     Content-Type = "application/javascript"
+[build]
+  publish = "build"
+  command = "npm run build"

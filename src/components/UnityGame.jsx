@@ -4,10 +4,10 @@ import { Unity, useUnityContext } from 'react-unity-webgl';
 
 const UnityGame = () => {
   const { unityProvider } = useUnityContext({
-    loaderUrl: "Client/Build/Client.loader.js",
-    dataUrl: "Client/Build/Client.data",
-    frameworkUrl: "Client/Build/Client.framework.js",
-    codeUrl: "Client/Build/Client.wasm",
+    loaderUrl: "/Client/Build/Client.loader.js",
+    dataUrl: "/Client/Build/Client.data",
+    frameworkUrl: "/Client/Build/Client.framework.js",
+    codeUrl: "/Client/Build/Client.wasm",
   });
 
   return (
